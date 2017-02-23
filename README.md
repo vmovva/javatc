@@ -9,4 +9,4 @@ Note that the compressed file tomcat_configuration_1.0.0.tar.gz has server.xml u
 
 **Edits to web.xml may be required :**
 
-Please see : https:\/\/developer.ibm.com\/answers\/questions\/245322\/how-to-redirect-http-to-https-on-ibm-bluemix-using.html
+Please see : https://developer.ibm.com/answers/questions/245322/how-to-redirect-http-to-https-on-ibm-bluemix-using.html
