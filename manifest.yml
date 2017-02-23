@@ -1,0 +1,9 @@
+---
+applications:
+- name: customtc
+  memory: 1G
+  host: customtc
+  buildpack: https://github.com/cloudfoundry/java-buildpack/ 
+  path : web-servlet-2-application-1.0.0.BUILD-SNAPSHOT.war
+env:
+  JBP_CONFIG_TOMCAT: "{ tomcat: { external_configuration_enabled: true }, external_configuration: { repository_root: \"https://raw.githubusercontent.com/vmovva/javatc/master\" } }" 
